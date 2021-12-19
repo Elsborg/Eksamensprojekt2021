@@ -113,8 +113,8 @@ ul li a:hover {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1rem;
-
 }
+
 
 .coverText {
     position: absolute;
@@ -232,6 +232,7 @@ ul li a:hover {
 .historieSkrift {
     color: #EB7575;
     text-align: center;
+    margin-top: 1rem;
 }
 
 .historieSkrift p {
@@ -249,6 +250,7 @@ ul li a:hover {
     text-align:center;
     
 }
+
 
 
 
@@ -346,7 +348,7 @@ ul li a:hover {
 }
 
 .infoContainer p{
-    width: 13.5em;
+    width: 14rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -361,6 +363,10 @@ ul li a:hover {
     color: #EB7575;
     text-align: center;
     margin: 1rem;
+}
+
+.produkterTitle h1 {
+    font-size: 2rem;
 }
 
 
@@ -447,7 +453,7 @@ margin: 1rem;
   .bæreTitle h1 {
       color: #EB7575;
       text-align: center;
-      margin-top: 10px;
+      margin-top: 1rem;
   }
 
   .bæreTitle p {
@@ -560,7 +566,7 @@ margin: 1rem;
  }
 
  /*Regler for hvad der skal ske når, man går over på web*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
 
     /*Mobile billederne skjules*/
       .mobile {
@@ -619,7 +625,6 @@ margin: 1rem;
         text-transform: uppercase;
         font-weight: bold;
         font-size: 4rem;
-    
     }
     
     .coverText {
@@ -627,7 +632,7 @@ margin: 1rem;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     /*---Historie Side---*/
@@ -669,6 +674,7 @@ margin: 1rem;
     .historieSkrift {
         color: #EB7575;
         text-align: center;
+        margin-top: 2rem;
     }
 
     .historieSkrift p {
@@ -743,7 +749,8 @@ margin: 1rem;
 .produkterTitle {
     text-align: center;
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.4em;
+    margin-top: 2rem;
 }
 
 .indhold {
@@ -814,7 +821,113 @@ table {
     font-size: 2rem;
 }
 
+.bæreTitle {
+    margin-top: 2rem;
+}
+
 
 
 
     }
+/*Small mobile*/
+    @media (min-width: 320px) and (max-width: 370px) { 
+        .coverText {
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -55%);
+            font-size: 0.5rem;
+        }
+      }
+
+    /*Medium mobile*/
+    @media (min-width: 375px) and (max-width: 400px) { 
+        .coverText {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 0.5rem;
+        }
+      }
+
+       /*Large mobile*/
+    @media (min-width: 405px) and (max-width: 760px) { 
+        .coverText {
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            transform: translate(-45%, -50%);
+            font-size: 0.7rem;
+        }
+
+        .coverTitle {
+            top: 30%;
+            left: 45%;
+            transform: translate(-45%, -30%);
+            font-size: 1rem;
+        }
+      }
+
+      /*Tablet*/
+      @media (min-width: 768px) and (max-width: 799px) { 
+        .coverText {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1rem;
+        }
+
+        .coverTitle {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -30%);
+            font-size: 2rem;
+        }
+
+        .mobile {
+            display: none;
+
+        }
+
+        .web {
+            display: block;
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .centerAlign {
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -45%);
+          }
+        
+          .overskriftCard {
+              position: absolute;
+              top: 25%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              font-size: 2rem;
+              text-align: center;
+        
+          }
+          
+          .cardBlock {
+            font-size: 1rem;
+             
+          }
+
+
+          .button {
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -65%);
+            
+          }
+
+      }
