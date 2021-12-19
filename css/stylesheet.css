@@ -16,7 +16,7 @@ body {
 .logo {
     padding-top: 10px;
     margin-left: 20px;
-    width:125px;
+    width: 125px;
 }
 
 
@@ -31,13 +31,13 @@ nav {
 nav ul {
     float: right;
     margin-right: 20px;
-    }
+}
 
 nav ul li {
     display: inline-block;
     line-height: 100px;
     margin: 0 5px;
-   
+
 }
 
 nav ul li a {
@@ -49,61 +49,62 @@ nav ul li a {
 }
 
 ul li a:hover {
-    background:	#AE5555;
+    background: #AE5555;
     transition: .5s;
 
 }
 
 
 
- .checkbtn {
-     font-size: 30px;
-     color: white;
-     float: right;
-     line-height: 100px;
-     margin-right: 40px;
-     cursor: pointer;
-     display: none;
-
-    
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 100px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 
 
- }
 
- #check {
-      display: none;
 
- }
+}
 
- /*---Index Side---*/
+#check {
+    display: none;
 
- .mobile {
+}
+
+/*---Index Side---*/
+
+.mobile {
     display: block;
     max-width: 100%;
     height: auto;
-  }
+}
 
-  #flexContainer1 {
-      display: block;
-  }
-
-  #flexContainer2 {
+#flexContainer1 {
     display: block;
 }
+
+#flexContainer2 {
+    display: block;
+}
+
 #flexContainer3 {
     display: block;
 }
 
-  .web {
-      display: none;
-  }
+.web {
+    display: none;
+}
 
 /* Container holding the image and the text */
 .container {
     position: relative;
     text-align: center;
     color: white;
-  }
+}
 
 .coverTitle {
     position: absolute;
@@ -126,49 +127,49 @@ ul li a:hover {
 
 
 
- .containerCards {
-     position: relative;
-     } 
+.containerCards {
+    position: relative;
+}
 
 
 
-  .overskriftSide {
-      text-align: center;
-      font-size: 20px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      color: #AE5555;
-  }
+.overskriftSide {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #AE5555;
+}
 
 
 
 
-  .centerAlign {
+.centerAlign {
     position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
-  .overskriftCard {
-      position: absolute;
-      top: 25%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 20px;
-      font-weight: bold;
-      text-transform: uppercase;
-      text-align: left;
+.overskriftCard {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
 
-  }
-  
-  .cardBlock {
+}
+
+.cardBlock {
     font-size: 12px;
     text-align: center;
-    color: white;    
-  }
+    color: white;
+}
 
-  .button {
+.button {
     position: absolute;
     top: 80%;
     left: 50%;
@@ -179,44 +180,45 @@ ul li a:hover {
     border-radius: 5px;
     padding: 8px;
     font-weight: 400;
-  }
+}
 
-  .button a {
+.button a {
     color: #AE5555;
-  }
+}
 
-  .button a:hover {
-      font-size: 20px !important;
-      background-color: initial;
-  }
-  .overskriftCard {
-      text-align: center;
-      font-size: 20px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      color: white;
-  }
+.button a:hover {
+    font-size: 20px !important;
+    background-color: initial;
+}
+
+.overskriftCard {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
 
 
-  /*---Historie Side---*/
+/*---Historie Side---*/
 
-  .webHistorie {
-      display: none;
-      max-width: 100%;
-  }
+.webHistorie {
+    display: none;
+    max-width: 100%;
+}
 
-  .mobileHistorie {
-      display: block;
-      max-width: 100%;
-      margin-top: 10px;
-      margin-bottom: 10px;
-  }
+.mobileHistorie {
+    display: block;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-  #flexHistorie {
-      margin: 1rem;
-  }
+#flexHistorie {
+    margin: 1rem;
+}
 
-  #flexHistorie1 {
+#flexHistorie1 {
     margin: 1rem;
 }
 
@@ -242,13 +244,13 @@ ul li a:hover {
 
 
 
-  .historieSpace {
+.historieSpace {
     border: 2px solid #EB7575;
     display: block;
     margin: 0 auto;
     width: 75%;
-    text-align:center;
-    
+    text-align: center;
+
 }
 
 
@@ -258,7 +260,7 @@ ul li a:hover {
 #opskriftSide {
     margin: 2rem;
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(12rem,16rem));
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
     grid-gap: 2rem;
     justify-content: center;
 
@@ -300,9 +302,9 @@ ul li a:hover {
     color: #EB7575;
     border-radius: 5px;
     transition: background 200ms ease-in,
-    color 200ms ease-in;
+        color 200ms ease-in;
 
-    
+
 }
 
 .opskriftBtn:hover {
@@ -344,16 +346,18 @@ ul li a:hover {
 
 .infoContainer {
     display: block;
-    
+
 }
 
-.infoContainer p{
+.infoContainer p {
     width: 14rem;
     margin-left: auto;
     margin-right: auto;
 }
 
-.infoContainer h2, h3, h4 {
+.infoContainer h2,
+h3,
+h4 {
     color: #EB7575;
     text-align: center;
     margin: 0.5rem;
@@ -374,124 +378,126 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  td, th {
+}
+
+td,
+th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
-  
-  tr:nth-child(even) {
+}
+
+tr:nth-child(even) {
     background-color: #EB7575;
-  }
+}
 
 
-  .buyContainer {
-      display: block;
-      width: 60%;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 1rem;
-  }
+.buyContainer {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
 
-  .buyContainer img {
-      margin-bottom: 4rem;
-  }
+.buyContainer img {
+    margin-bottom: 4rem;
+}
 
-  .buyHere  h2{
-      color: #EB7575;
-      margin: 1rem;
-      text-align: center;
+.buyHere h2 {
+    color: #EB7575;
+    margin: 1rem;
+    text-align: center;
 
-  }
+}
 
-  /*---Bæredygtighed Side---*/
-  #bæreContainer1 {
-display: block;
+/*---Bæredygtighed Side---*/
+#bæreContainer1 {
+    display: block;
 
-  }
+}
 
-  #bæreContainer2 {
-      display: block;
-      
-  }
+#bæreContainer2 {
+    display: block;
 
-  .bæreCard {
-background-color: #EB7575;
-margin: 1rem;
+}
 
-  }
+.bæreCard {
+    background-color: #EB7575;
+    margin: 1rem;
 
-  .bæreCard img {
+}
+
+.bæreCard img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     padding: 1rem;
-  }
+}
 
-  .bæreCard h3 {
-      color: white;
-      font-size: 1.5rem;
-      padding: 0.5rem;
-  }
+.bæreCard h3 {
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
 
-  .textCard {
-      background-color: #EBC3CC;
-      margin: 1rem;
-  }
+.textCard {
+    background-color: #EBC3CC;
+    margin: 1rem;
+}
 
-  .textCard h3, p {
-      color: white;
-      padding: 0.5rem;
-  }
+.textCard h3,
+p {
+    color: white;
+    padding: 0.5rem;
+}
 
-  .textCard h3 {
-      font-size: 1.5rem;
-  }
+.textCard h3 {
+    font-size: 1.5rem;
+}
 
-  .bæreTitle h1 {
-      color: #EB7575;
-      text-align: center;
-      margin-top: 1rem;
-  }
+.bæreTitle h1 {
+    color: #EB7575;
+    text-align: center;
+    margin-top: 1rem;
+}
 
-  .bæreTitle p {
+.bæreTitle p {
     color: #EB7575;
     text-align: center;
 
 }
 
 
- 
 
 
- @media (max-width: 952px) {
-     label.logo {
-         font-size: 30px;
-         padding-left: 50px;
-     }
 
-     nav ul li a {
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
 
-     font-size: 16px;
+    nav ul li a {
 
-     }
- }
+        font-size: 16px;
 
- footer {
+    }
+}
+
+footer {
     padding: 40px 0;
     background-color: #EB7575;
-  
-  }
-  
-  footer .social {
+
+}
+
+footer .social {
     text-align: center;
     padding-bottom: 25px;
     color: white;
-  }
-  
-  footer .social a {
+}
+
+footer .social a {
     font-size: 24px;
     color: inherit;
     border: 1px solid white;
@@ -503,81 +509,82 @@ margin: 1rem;
     border-radius: 50%;
     margin: 0 8px;
     opacity: 0.75;
-  }
-  
-  footer .social a:hover {
+}
+
+footer .social a:hover {
     opacity: 0.9;
-  }
-  
-  footer .copyright {
+}
+
+footer .copyright {
     margin-top: 15px;
     text-align: center;
     font-size: 13px;
     color: white;
-  }
+}
 
-  .lineFooter {
+.lineFooter {
     margin-top: 5px;
     border: 1px solid white;
-  }
+}
 
- @media (max-width: 858px) {
-      .checkbtn {
-          display: block;
-      }
-
-    
-
-      ul {
-          position: fixed;
-          z-index: 1;
-          width: 100%;
-          height: 100%;
-          background: #f2c1c1;
-          top: 100px;
-          left: -100%;
-          text-align: center;
-          transition: all .5s;
-      }
-
-      nav ul li {
-          display: block;
-          margin: 50px 0;
-          line-height: 30px;
-      }
-
-      nav ul li a {
-          font-size: 20px;
-
-      }
-      a:hover {
-          background: none;
-          color: #EB7575;
-
-      }
-
-      #check:checked ~ ul {
-          left: 0;
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
 
 
-      }
 
-      
- }
+    ul {
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        background: #f2c1c1;
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
 
- /*Regler for hvad der skal ske når, man går over på web*/
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+
+    }
+
+    a:hover {
+        background: none;
+        color: #EB7575;
+
+    }
+
+    #check:checked~ul {
+        left: 0;
+
+
+    }
+
+
+}
+
+/*Regler for hvad der skal ske når, man går over på web*/
 @media screen and (min-width: 800px) {
 
     /*Mobile billederne skjules*/
-      .mobile {
+    .mobile {
         display: none;
-      }
+    }
 
-      .mobileHistorie {
-          display: none;
-      }
+    .mobileHistorie {
+        display: none;
+    }
 
-      .webHistorie {
+    .webHistorie {
         display: block;
         max-width: 100%;
         margin: 20px;
@@ -588,27 +595,27 @@ margin: 1rem;
         max-width: 40%;
         justify-content: center;
         margin: 20px;
-       
+
     }
 
-      .web {
-          display: block;
-          max-width: 100%;
-      }
+    .web {
+        display: block;
+        max-width: 100%;
+    }
 
 
 
-      #flexContainer1 {
-          display: flex;
-          justify-content: center;
-         
-      }
-
-      #flexContainer2 {
+    #flexContainer1 {
         display: flex;
         justify-content: center;
-        flex-direction: row-reverse; 
-        
+
+    }
+
+    #flexContainer2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+
     }
 
     #flexContainer3 {
@@ -626,7 +633,7 @@ margin: 1rem;
         font-weight: bold;
         font-size: 4rem;
     }
-    
+
     .coverText {
         position: absolute;
         top: 50%;
@@ -656,7 +663,7 @@ margin: 1rem;
         border: 2px solid #EB7575;
         margin: 0 auto;
         width: 75%;
-        text-align:center;
+        text-align: center;
     }
 
     .tekstHistorie {
@@ -681,7 +688,7 @@ margin: 1rem;
         color: #EB7575;
         text-align: center;
     }
-  
+
 
     .overskriftCard {
         font-size: 42px;
@@ -701,7 +708,7 @@ margin: 1rem;
 
     .button {
         font-size: 28px;
-        
+
     }
 
     .button a:hover {
@@ -720,214 +727,217 @@ margin: 1rem;
     }
 
     /*---Produkt Side---*/
-#produkterContainer {
-    display: flex;
-}
+    #produkterContainer {
+        display: flex;
+    }
 
-.produktBillede {
-    width: 100%;
-    height: auto;
-}
+    .produktBillede {
+        width: 100%;
+        height: auto;
+    }
 
-.infoContainer {
-    display: block;
-    width: 100%;
-    margin-top: 1rem;
-    
-}
-
-.infoContainer p{
-    text-align: left;
-    width: 97%;
-}
-
-.infoContainer h2, h3 {
-    text-align: left;
-    margin: 0.5rem;
-}
-
-.produkterTitle {
-    text-align: center;
-    margin: 1rem;
-    font-size: 1.4em;
-    margin-top: 2rem;
-}
-
-.indhold {
-    margin-top: 2rem;
-    text-align: left;
-}
-
-
-table {
-    width: 70%;
-    margin-top: 1rem;
-    margin-left: 0.5rem;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  .buyContainer {
-    display: flex;
-    width: 15%;
-    justify-content: space-evenly;
-}
-
-.buyContainer img {
-    margin: 25px;
-}
-
-
-/*---Bæredygtighed Side---*/
-#bæreContainer1 {
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    justify-content: center;
-    margin: 2rem 5rem;
-      }
-
-#bæreContainer2 {
-    display: flex;
-    max-width: 100%;
-    justify-content: center;
-    margin: 2rem 5rem;
-      }
-
-#bæreContainer2 h3 {
-    white-space: nowrap;
-}
-
-.textCard {
-    width: 60%;
-}
-
-.textCard h3 {
-    font-size: 2rem;
-}
-
-.textCard p {
-    font-size: 1.5rem;
-    margin-top: 4rem;
-    margin-left: 0.5rem;
-}
-
-.bæreCard h3 {
-    text-align: center;
-    font-size: 2rem;
-}
-
-.bæreTitle {
-    margin-top: 2rem;
-}
-
-
-
+    .infoContainer {
+        display: block;
+        width: 100%;
+        margin-top: 1rem;
 
     }
+
+    .infoContainer p {
+        text-align: left;
+        width: 97%;
+    }
+
+    .infoContainer h2,
+    h3 {
+        text-align: left;
+        margin: 0.5rem;
+    }
+
+    .produkterTitle {
+        text-align: center;
+        margin: 1rem;
+        font-size: 1.4em;
+        margin-top: 2rem;
+    }
+
+    .indhold {
+        margin-top: 2rem;
+        text-align: left;
+    }
+
+
+    table {
+        width: 70%;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    .buyContainer {
+        display: flex;
+        width: 15%;
+        justify-content: space-evenly;
+    }
+
+    .buyContainer img {
+        margin: 25px;
+    }
+
+
+    /*---Bæredygtighed Side---*/
+    #bæreContainer1 {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        justify-content: center;
+        margin: 2rem 5rem;
+    }
+
+    #bæreContainer2 {
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+        margin: 2rem 5rem;
+    }
+
+    #bæreContainer2 h3 {
+        white-space: nowrap;
+    }
+
+    .textCard {
+        width: 60%;
+    }
+
+    .textCard h3 {
+        font-size: 2rem;
+    }
+
+    .textCard p {
+        font-size: 1.5rem;
+        margin-top: 4rem;
+        margin-left: 0.5rem;
+    }
+
+    .bæreCard h3 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .bæreTitle {
+        margin-top: 2rem;
+    }
+
+
+
+
+}
+
 /*Small mobile*/
-    @media (min-width: 320px) and (max-width: 370px) { 
-        .coverText {
-            position: absolute;
-            top: 55%;
-            left: 50%;
-            transform: translate(-50%, -55%);
-            font-size: 0.5rem;
-        }
-      }
+@media (min-width: 320px) and (max-width: 370px) {
+    .coverText {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -55%);
+        font-size: 0.5rem;
+    }
+}
 
-    /*Medium mobile*/
-    @media (min-width: 375px) and (max-width: 400px) { 
-        .coverText {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 0.5rem;
-        }
-      }
+/*Medium mobile*/
+@media (min-width: 375px) and (max-width: 400px) {
+    .coverText {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 0.5rem;
+    }
+}
 
-       /*Large mobile*/
-    @media (min-width: 405px) and (max-width: 760px) { 
-        .coverText {
-            position: absolute;
-            top: 50%;
-            left: 45%;
-            transform: translate(-45%, -50%);
-            font-size: 0.7rem;
-        }
+/*Large mobile*/
+@media (min-width: 405px) and (max-width: 760px) {
+    .coverText {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-45%, -50%);
+        font-size: 0.7rem;
+    }
 
-        .coverTitle {
-            top: 30%;
-            left: 45%;
-            transform: translate(-45%, -30%);
-            font-size: 1rem;
-        }
-      }
+    .coverTitle {
+        top: 30%;
+        left: 45%;
+        transform: translate(-45%, -30%);
+        font-size: 1rem;
+    }
+}
 
-      /*Tablet*/
-      @media (min-width: 768px) and (max-width: 799px) { 
-        .coverText {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 1rem;
-        }
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 799px) {
+    .coverText {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1rem;
+    }
 
-        .coverTitle {
-            position: absolute;
-            top: 30%;
-            left: 50%;
-            transform: translate(-50%, -30%);
-            font-size: 2rem;
-        }
+    .coverTitle {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        font-size: 2rem;
+    }
 
-        .mobile {
-            display: none;
+    .mobile {
+        display: none;
 
-        }
+    }
 
-        .web {
-            display: block;
-            max-width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    .web {
+        display: block;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-        .centerAlign {
-            position: absolute;
-            top: 45%;
-            left: 50%;
-            transform: translate(-50%, -45%);
-          }
-        
-          .overskriftCard {
-              position: absolute;
-              top: 25%;
-              left: 50%;
-              transform: translate(-50%, -50%);
-              font-size: 2rem;
-              text-align: center;
-        
-          }
-          
-          .cardBlock {
-            font-size: 1rem;
-             
-          }
+    .centerAlign {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+    }
+
+    .overskriftCard {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+        text-align: center;
+
+    }
+
+    .cardBlock {
+        font-size: 1rem;
+
+    }
 
 
-          .button {
-            position: absolute;
-            top: 65%;
-            left: 50%;
-            transform: translate(-50%, -65%);
-            
-          }
+    .button {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -65%);
 
-      }
+    }
+
+}
