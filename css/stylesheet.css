@@ -314,6 +314,14 @@ ul li a:hover {
     border: 2px solid #AE5555;
 }
 
+.opskriftBtn a {
+    color: #EB7575;
+}
+
+.opskriftBtn:hover, a:hover {
+    color: white;
+}
+
 .opskriftCard:hover {
     transform: scale(1.02);
 }
